@@ -1,0 +1,31 @@
+{
+    "editor.formatOnSave": false,
+    // Enable per-language
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "psi-header.variables": [
+        ["projectCreationYear", "2019"],
+        ["company", "Leap In!"]
+    ],
+    "psi-header.lang-config": [
+         {
+             "language": "typescript",
+             "begin": "/**",
+            "blankLinesAfter": 1,
+            "forceToTop": true
+         }
+     ],
+     "psi-header.templates": [
+         {
+             "language": "*",
+             "template": [
+                 "Author: <<author>> (<<authoremail>>)",
+                "Created on: <<dateformat(DD-MM-YYY)>>",
+                "Description: ",
+                "Module: Hedgehog API Automation",
+                 "Copyright (c) <<projectCreationYear>> <<company>> All rights reserved."
+             ]
+         }
+     ]
+ }
