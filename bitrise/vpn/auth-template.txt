@@ -1,2 +1,0 @@
-$BR_VPN_USER
-$BR_VPN_PASS

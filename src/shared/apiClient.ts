@@ -1,10 +1,4 @@
-/**
- * Author: Sanjeewa Ekanayaka (sekanayaka@mitrai.com)
- * Created on: 30-09-19
- * Description:
- * Module: Hedgehog API Automation
- * Copyright (c) 2019 Leap In! All rights reserved.
- */
+
 import { apiBaseUrl } from '../../environment/env.json';
 
 import * as rp from 'request-promise-native';
