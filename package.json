@@ -29,7 +29,7 @@
     "chai": "^4.2.0",
     "chance": "^1.0.18",
     "coveralls": "^3.0.4",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "mocha-typescript": "^1.1.17",
     "mochawesome": "^4.1.0",
     "nyc": "^14.0.0",
